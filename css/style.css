@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+ul li{
+    list-style: none;
+}
+
+/* /////////////////////////////////  navbar  //////////////////////////////// */
+.nav-main{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 6rem;
+    background-color: #212121;
+}
+
+.nav-main .btn-toggle-nav{
+    width: 6rem;
+    height: 100%;
+}
+
+.nav-main .btn-toggle-nav i{
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: #fff;
+}
+
+/* ////////////////////////////////  sidebar  //////////////////////////////// */
+.nav-sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 6rem;
+    height: calc(100vh - 60px);
+    z-index: 1000;
+}
+
+.nav-sidebar .list-icons{
+    background-color: #212121;
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding-top: 1.5rem;
+    overflow: hidden;
+    visibility: visible;
+}
+
+.nav-sidebar .list-icon{
+    line-height: 6rem;
+    padding: 0 1rem;
+    font-size: 2rem;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.nav-sidebar .list-icon i{
+    color: #fff;
+}
+
+.list-items{
+    height: 100%;
+    background-color: #212121;
+    padding-top: 1.5rem;
+    float: left;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.list-item{
+    color: #fff;
+    font-size: 2rem;
+    line-height: 6rem;
+    padding: 0 1rem;
+    white-space: nowrap;
+}
+
+.nav-sidebar::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+
+
