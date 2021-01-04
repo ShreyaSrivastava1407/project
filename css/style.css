@@ -31,6 +31,7 @@ ul li{
 .nav-main .btn-toggle-nav{
     width: 6rem;
     height: 100%;
+    float: left;
 }
 
 .nav-main .btn-toggle-nav i{
