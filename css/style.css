@@ -41,6 +41,24 @@ ul li{
     color: #fff;
 }
 
+.nav-main .logo{
+    width: 8rem;
+    height: 100%;
+    float: left;
+    background-color: #212121;
+}
+
+.nav-main .logo img{
+    width: 100%;
+    height: 100%; 
+}
+
+.nav-main::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
 /* ////////////////////////////////  sidebar  //////////////////////////////// */
 .nav-sidebar{
     position: fixed;
